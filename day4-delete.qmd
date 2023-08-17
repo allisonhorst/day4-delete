@@ -1,0 +1,83 @@
+---
+title: "Day 4 Interactive"
+format: html
+editor: visual
+---
+
+## Functions
+
+Make a function that doubles a value.
+
+```{r}
+double_value <- function(my_dollars) {
+  print(2 * my_dollars)
+}
+```
+
+```{r}
+double_value(my_dollars = 10.13)
+```
+
+```{r}
+double_value(10.13)
+```
+
+```{r}
+double_value(my_dollars = 10.13)
+```
+
+```{r}
+monthly_income <- c(42.50, 61.75, 89.50)
+
+double_value(monthly_income)
+```
+
+Create a function that returns an awesome restaurant name given a cool animal and your favorite food.
+
+```{r}
+name_restaurant <- function(animal, food) {
+  print(paste0(animal, food))
+}
+
+name_restaurant(animal = "hawk", food = "pizza")
+```
+
+Given temperature in degrees fahrenheit, write a function that converts it to Celsius.
+
+```{r}
+convert_f_to_c <- function(temp_f) {
+  print((temp_f - 32) * (5 / 9))
+}
+```
+
+```{r}
+convert_f_to_c(temp_f = 52)
+```
+
+Create a function that given inputs of age and hometown, returns "I am \_\_\_ years old, and I'm from \_\_\_\_\_"
+
+```{r}
+about_me <- function(age_yr, hometown) {
+  print(paste0("I am ", age_yr, " years old, and I'm from ", hometown, "."))
+}
+
+about_me(age_yr = 6, hometown = "Los Angeles")
+```
+
+```{r}
+double_value2 <- function(dollars) {
+  dollars * 2
+}
+```
+
+```{r}
+tax2023 <- double_value2(dollars = 10) * 0.08
+```
+
+```{r}
+
+```
+
+Print statements and return statements
+
+Print: "show me", Return: "store this so I can use it later"
